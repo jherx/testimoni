@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+:root{
+    /* Colors Primary */
+    --violet-card1: #7541c8;
+    --darkblue-card2: #48556a;
+    --blackish-card4 : #19212e;
+    --White-cards: #ffffff;
+    /*Colors Neutro*/
+    --Light-gray: #cfcfcf;
+    --bg-body : #ecf2f8;
+    --fnt: 'Barlow Semi Condensed', sans-serif
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-size: 13px;
+    font-family: var(--fnt) ;
+    background: var(--bg-body);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,minmax(280px));
+}
+
+.card{
+    min-width:280px;
+    min-height: 358px;
+    border-radius: 2%;
+    padding: 10% 5% 5%;
+    margin-bottom: 5%;
+}
+ .card-imges{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:space-between
+ }
+ 
+.img-profile{
+    border-radius: 50%;
+}
+
+
+.item-card_1{
+background: var(--violet-card1);
+
+}
+.bg-img-card_1{
+    background: url(./images/bg-pattern-quotation.svg)  no-repeat ;
+    background-position:right top;
+}
+
+
+.card-imges{
+    padding: 2%;
+}
+
+.item-card_2{
+background: var(--darkblue-card2);
+}
+
+.item-card_3{
+background: var(--White-cards);
+}
+
+.item-card_4{
+    background: var(--blackish-card4);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
