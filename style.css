@@ -33,27 +33,47 @@ body{
     min-width:280px;
     min-height: 358px;
     border-radius: 2%;
-    padding: 10% 5% 5%;
+    padding: 5% 5% 5%;
     margin-bottom: 5%;
 }
  .card-imges{
      display: flex;
-     flex-wrap: wrap;
-     justify-content:space-between
+     flex-wrap: nowrap;
+     /*justify-content:space-between*/
+ }
+ .card__profile{
+     display: flex;
+     flex-direction: column;
+     padding-top: 2px;
+     padding-left: 2.3%;
  }
  
 .img-profile{
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
 
 .item-card_1{
-background: var(--violet-card1);
+/* background: var(--violet-card1); */
+position: static;
+
+
+
 
 }
 .bg-img-card_1{
+    position: absolute;
+    z-index: -1;
     background: url(./images/bg-pattern-quotation.svg)  no-repeat ;
     background-position:right top;
+    padding: 50px;
+    width: 90%;
+}
+
+.card-title{
+    
 }
 
 
