@@ -12,7 +12,9 @@
 *.fig
 
 # Avoid your project being littered with annoying .DS_Store files!
+design/*
 .DS_Store
-README-template
-style-guide
+README-template.md
+style-guide.md
+instrucciones.md
 .prettierignore
